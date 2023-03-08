@@ -1,5 +1,5 @@
 import { defineConfig } from "astro/config";
-import netlify from "@astrojs/netlify/functions";
+// import netlify from "@astrojs/netlify/functions";
 import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
 import remarkToc from "remark-toc";
@@ -8,9 +8,9 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astro-paper.pages.dev/",
-  output: "server",
-  adapter: netlify(),
+  site: "https://dengriguang.com/",
+  // output: "server",
+  // adapter: netlify(),
   integrations: [
     tailwind({
       config: {
